@@ -1,0 +1,19 @@
+{
+  "name": "garments-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "@flaticon/flaticon-uicons": "^3.2.1",
+    "flowbite": "^2.3.0",
+    "tw-elements": "^2.0.0"
+  }
+}
